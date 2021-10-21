@@ -15,7 +15,7 @@ Users can register accounts on the website where their password is securely stor
 -   Displaying the status of chores.
 -   Notification of user’s active chore and the deadline date
 
-## Additional Features
+## Additional Features ( As a continuation of the assigment in my free time) 
 
 -   Error messages and success added for every input field.
 -   Ajax is utilized through the website. The chores are removed and updated using ajax. The owner is able to remove the users with ajax as well.
