@@ -49,11 +49,11 @@ Users can register accounts on the website where their password is securely stor
 - Circled cutout for adding a profile picture without exposing any upload buttons but instead showing up when entered the area
 -
 ## Libraries Used
-Used for icons
+Used for icons<br /> 
 https://kit.fontawesome.com/6b23de7647.js <br /> 
-Jquery
+Jquery<br /> 
 https://code.jquery.com/jquery-3.4.1.min.js <br /> 
-font
+font<br /> 
 https://fonts.googleapis.com/css?family=Open+Sans:300,400 <br /> 
-Used for icons
+Used for icons<br /> 
 https://use.fontawesome.com/releases/v5.4.1/css/all.css-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz
