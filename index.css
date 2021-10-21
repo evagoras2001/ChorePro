@@ -1,0 +1,472 @@
+.container{
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#buttons:hover{
+	background: #1877f2c7;
+	transform: translateY(-3px);
+	transition: .4s;
+
+}
+.omonoia{
+	display: none;
+
+}
+.logins{
+
+    position: relative;
+    margin-right: 2.3%;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: block;
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alerts {
+    position: relative;
+    margin-right: 2.3%;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: block;
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.success{
+
+    position: relative;
+    margin-right: 2.3%;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: block;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.successes{
+
+    position: relative;
+    margin-right: 2.3%;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: block;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+#buttons{
+	padding-right: 155px;
+	padding-left:  180px;
+	background: #1877f2;
+}
+.container{
+	z-index: 3;
+  background: #fff;
+  width: 410px;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.container .close-btn{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.container .close-btn:hover{
+  color: #3498db;
+}
+.container .text{
+  font-size: 35px;
+  font-weight: 600;
+}
+.container p{
+	margin: 3px;
+	font-weight: lighter;
+}
+ #forms{
+  margin-top: -20px;
+}
+  .data{
+  height: 45px;
+  width: 100%;
+  margin: 10px 0;
+}
+ .data  label{
+  font-size: 18px;
+}
+ .data input{
+  height: 100%;
+  width: 96.5%;
+	border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid silver;
+}
+button{
+	outline: none;
+
+}
+  input:focus{
+	 outline: none;
+   box-shadow: 0px 0px 2px #0066ff;
+  border-color: #3498db;
+  border-bottom-width: 2px;
+}
+
+   .btns{
+  margin: 30px 0;
+  height: 45px;
+	border-radius: 10px;
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  overflow: hidden;
+}
+ .btns .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  z-index: -1;
+	background: rgb(17,112,3);
+background: linear-gradient(94deg, rgba(17,112,3,1) 0%, rgba(9,152,6,1) 48%, rgba(0,195,65,1) 100%, rgba(5,226,4,1) 100%);
+
+  transition: all 0.7s;
+}
+  .btns:hover .inner{
+  left: 0;
+}
+.omonoia{
+  z-index: 3;
+
+}
+.omo:not(.omonoia){
+  filter: blur(8px);
+	pointer-events: none;
+-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+user-select: none;
+
+}
+
+ .btns button:not(#button){
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+
+
+.loginsignup {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.name{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 15px;
+    letter-spacing: 2px;
+	}
+	.text-bold{
+font-weight: bold;
+	}
+	.text-bold::before{
+		content: url("https://img.icons8.com/carbon-copy/100/000000/housekeeping.png/");
+		vertical-align:middle;
+
+	}
+	.bold{
+font-weight: bold;
+	}
+
+	.show-btn{
+		font-size: 20px;
+		background: #1877f2;
+		height: 50px;
+		color: #fff;
+		cursor:pointer;
+		align:center;
+		line-height: 50px;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		text-transform: capitalize;
+		display: block;
+		margin-top: 20px;
+		margin-left: 95px;
+		margin-right: 95px;
+		text-align: center;
+		background: #00a400;
+		transition: .4s;
+	}
+	input[type="checkbox"]{
+	  display: none;
+	}
+	html{
+		background:linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(background.jpg) 0 0;
+background-repeat:no-repeat;
+		margin: 0;
+		padding: 0;
+		outline: 0;
+		height: 100vh;
+		overflow: hidden;
+	width: 100%;
+	background-repeat:no-repeat;
+background-size: cover;
+	}
+	a{
+		text-decoration: none;
+	}
+body:not(.name,.omonoia){
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	height:0;
+width: 100%;
+ font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #1c1e21;
+	font-weight: normal;
+}
+.form-group{
+	margin: 0px;
+	text-align: none;
+}
+
+.form-group i {
+	margin: 0px;
+    margin-left: -35px;
+		padding-left: -10px;
+    cursor: pointer;
+}
+.loginsignup{
+	display: block;
+	padding: 12%;
+}
+.container{
+	max-width: 992px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+nav ul li a:hover {
+    color: rgb(114, 131, 154);
+}
+.icon{
+		content: url("https://img.icons8.com/carbon-copy/40/000000/housekeeping.png/");
+
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: grey;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+}
+nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    text-decoration-style: solid;
+    margin: 10px;
+}
+.blurring{
+filter: blur(3px);
+pointer-events: none;
+-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+user-select: none;
+
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 0;
+    height: 50px;
+}
+.content-left{
+	max-width: 500px;
+	margin: auto;
+	max-height: 1000px;
+}
+nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+header {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+}
+h2{
+	margin: 0px;
+	color: white;
+	margin-bottom: 40px;
+	font-weight: lighter;
+}
+.content-left h1{
+	font-size: 50px;
+	color: #1877f2;
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+
+.content-left .name{
+	font-size: 28px;
+	line-height: 32px;
+	margin-bottom: 40px;
+}
+.content-right{
+	max-width: 450px;
+	margin: auto;
+}
+.login,.forgot,.create-btn{
+
+	text-align: center;
+}
+.content-right form{
+	width: 400px;
+	height: 350px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+		margin-bottom: 30px;
+}
+.content-right form input{
+	width: 90%;
+	height: 50px;
+	font-size: 17px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+.content-right form input:hover{
+	background: #f0f2f5;
+}
+ .main-container {
+    height: 100vh;
+overflow-x: hidden;
+		width: 100%;
+		display: flex;
+    justify-content: center;
+}
+.btn{
+	font-size: 20px;
+	background: #1877f2;
+	height: 50px;
+	border: none;
+	background: none;
+	cursor:pointer;
+		display: inline-block;
+	color: #fff;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+#up{
+margin-top:10px;
+margin-bottom:40px;
+
+}
+hr{
+margin-top:10px;
+margin-bottom:20px;
+
+}
+@media only screen and (max-width: 450px){
+  .loginsignup{
+    margin-top:400px!important;
+  }
+}
+
+
+	.create-btn button{
+	padding: 0;
+border: none;
+background: none;
+cursor:pointer;
+	display: inline-block;
+	margin-top: 0px;
+
+	padding: 0 17px;
+	background: #00a400;
+	transition: .4s;
+}
+.create-btn button:hover{
+	background: #44bd32;
+	transform: translateY(-3px);
+}
+
+.forgot a{
+	font-size: 14px;
+	line-height: 19px;
+	color:#1877f2;
+}
+.forgot a:hover,
+.content-right p a:hover{
+	text-decoration: underline;
+}
+.content-right p a{
+	color: #1c1e21;
+	font-weight: 600;
+}
